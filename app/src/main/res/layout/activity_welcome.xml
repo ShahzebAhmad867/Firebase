@@ -15,7 +15,7 @@
         android:textSize="20sp"
         android:textAllCaps="false"
         android:textStyle="bold"
-        android:text="Welcome to my app"
+        android:text="You are welcome to the app"
         android:gravity="center"
         android:padding="10dp"
         android:layout_margin="20dp"
