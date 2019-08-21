@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    >
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Enter name"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        />
+
+    <EditText
+        android:id="@+id/add_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Enter phone"
+        android:drawableLeft="@drawable/phone"
+        />
+
+    <EditText
+        android:id="@+id/add_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Enter address"
+        android:drawableLeft="@drawable/ic_home_black_24dp"
+        />
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Save"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"
+
+        />
+
+</LinearLayout>

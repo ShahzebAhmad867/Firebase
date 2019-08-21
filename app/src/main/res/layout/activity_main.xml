@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In Here"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:layout_margin="20dp"
+
+        />
+    <EditText
+        android:id="@+id/signin_ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Enter email id"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        />
+
+    <EditText
+        android:id="@+id/signin_ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Enter password"
+        android:drawableLeft="@drawable/lock"
+        />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Login"
+        android:background="@color/colorPrimary"
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/dont_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have account, Signup here"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

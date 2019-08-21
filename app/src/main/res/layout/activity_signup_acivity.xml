@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupAcivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Here"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:layout_margin="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Enter name"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Enter email"
+        android:drawableLeft="@drawable/email"
+        />
+
+    <EditText
+        android:id="@+id/signup_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Enter phone #"
+        android:drawableLeft="@drawable/phone"
+        />
+
+    <EditText
+        android:id="@+id/signup_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Enter password"
+        android:drawableLeft="@drawable/lock"
+        />
+
+    <EditText
+        android:id="@+id/signup_cpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:hint="Confirm password"
+        android:drawableLeft="@drawable/lock"
+        />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Sign Up"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/already_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have account, Login here"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
